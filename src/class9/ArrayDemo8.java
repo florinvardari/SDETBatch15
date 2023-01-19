@@ -1,8 +1,9 @@
 package class9;
 
+import java.util.Scanner;
+
 public class ArrayDemo8 {
     public static void main(String[] args) {
-
 
         int [] arr={10,20,30,4,5,6,7,80};
         int sum=0;
@@ -14,5 +15,7 @@ public class ArrayDemo8 {
 
         }
         System.out.println(sum);
+
+
     }
 }

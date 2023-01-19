@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Perimeter {
+public class Shopping {
     public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
 
