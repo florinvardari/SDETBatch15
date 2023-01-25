@@ -3,8 +3,8 @@ package Class11AndObjects;
 public class Example1 {
     public static void main(String[] args) {
 
-        int num1=10;
-        int num2=20;
+       int num1=10;//
+       int num2=20;//
 
         int[][] matrix={{10,20,30},
                 {45,55,66},
