@@ -8,6 +8,8 @@ public class Practice1 {
                 {1,-5,-2,2},
                 {1,-2,3,-4}
         };
+        String name;
+
         int sum=0;
         int total=0;
         for (int i = 0; i <a.length ; i++) {

@@ -9,3 +9,4 @@ public class ReturnDemo2 {
         System.out.println(num);
     }
 }
+
