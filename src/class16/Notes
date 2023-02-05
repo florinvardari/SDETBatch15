@@ -22,3 +22,20 @@ upside:
     they can also be accessed with the help of any object of that class. They have the most wide scope
 Downside:
     They are loaded into the memory when a class is loaded even though you don't use them.
+===================================================================================
+Access modifiers?
+    Access modifiers are some keywords in java that we can use to control the access of
+    variables,methods and classes.
+    There are 4 access levels private protected default public
+    And There are 3 keywords that we use to control this access for example
+    private protected and public
+private:
+    if we write private keyword with a variable or a method or a class. we can access that variable or method
+    or class within the same class.
+default:
+    default is not a keyword. when we don't write any access modifiers with variables or methods or classes
+    default access is applied automatically by java, which means these variables methods or classes can be
+    access inside any other class which is present inside the same package.
+public:
+    public is a keyword. when written with any variable or method or class it means any class in your
+    project can access these things.ry when a class is loaded even though you don't use them.
