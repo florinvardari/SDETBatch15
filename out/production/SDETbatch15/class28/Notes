@@ -27,3 +27,7 @@ Diamond Operator:
     Diamond operators are also called angle brackets "<>". They are used to specify the name of the class whose
     objects we will be storing inside the classes which belong to collections framework or any other class which
     uses java generics.
+ArrayList vs LinkedList
+if in your code most of the time you use get method and you don't add or remove elements from in between then you should
+always use ArrayList.
+if most of the time you add or remove elements from in-between and don't use get method then you should use LinkedList.
