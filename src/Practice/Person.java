@@ -6,30 +6,29 @@ import class30.Entry;
 import java.util.*;
 
 public class Person {
-    /**
-     * 5)Create a collection of integers in which you can keep duplicates.
-     * Write a logic to find sum of all integers
-     * Prince
-     */
-    public static void main(String[] args) {
 
-
-        List<Integer> numbers = new ArrayList<>();
-        numbers.add(15);
-        numbers.add(135);
-        numbers.add(345);
-        numbers.add(234);
-        numbers.add(15);
-        numbers.add(46);
-        numbers.add(324);
-
-        int sum=0;
-
-        for (Integer x:numbers) {
-            sum+=x;
+     public static void display(Map<String,Integer> identify){
+        if (!identify.isEmpty()){
+            var entry=identify.entrySet();
+            for (var x:entry)
+            System.out.println(x.getKey()+" - "+x.getValue());
+        }else {
+            System.out.println("map is empty");
         }
+    }
 
-        System.out.println("The sum of all numbers from ArrayList is ="+sum);
+    public static void main(String[] args) {
+        Map<String,Integer> map=new HashMap<>();
+        map.put("mango", 10);
+        map.put("apple", 30);
+        map.put("orange", 20);
+
+        display(map);
+
+        map.clear();
+
+        display(map);
+
 
     }
 
